@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A029451DB0EDA10048C593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A029441DB0EDA10048C593 /* main.m */; };
+		34A029481DB0EDA10048C593 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A029471DB0EDA10048C593 /* AppDelegate.m */; };
+		34A0294E1DB0EDA10048C593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A0294C1DB0EDA10048C593 /* Main.storyboard */; };
+		34A029501DB0EDA10048C593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A0294F1DB0EDA10048C593 /* Assets.xcassets */; };
+		34A029531DB0EDA10048C593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A029511DB0EDA10048C593 /* LaunchScreen.storyboard */; };
+		34A0295C1DB0EE350048C593 /* YKPieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A0295B1DB0EE350048C593 /* YKPieController.m */; };
+		34A0295F1DB0EEDA0048C593 /* YKPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A0295E1DB0EEDA0048C593 /* YKPieView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34A029401DB0EDA10048C593 /* YKPieView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKPieView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A029441DB0EDA10048C593 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34A029461DB0EDA10048C593 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34A029471DB0EDA10048C593 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34A0294D1DB0EDA10048C593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34A0294F1DB0EDA10048C593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34A029521DB0EDA10048C593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34A029541DB0EDA10048C593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A0295A1DB0EE350048C593 /* YKPieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKPieController.h; sourceTree = "<group>"; };
+		34A0295B1DB0EE350048C593 /* YKPieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKPieController.m; sourceTree = "<group>"; };
+		34A0295D1DB0EEDA0048C593 /* YKPieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKPieView.h; sourceTree = "<group>"; };
+		34A0295E1DB0EEDA0048C593 /* YKPieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKPieView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A0293D1DB0EDA10048C593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A029371DB0EDA10048C593 = {
+			isa = PBXGroup;
+			children = (
+				34A029421DB0EDA10048C593 /* YKPieView */,
+				34A029411DB0EDA10048C593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A029411DB0EDA10048C593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A029401DB0EDA10048C593 /* YKPieView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A029421DB0EDA10048C593 /* YKPieView */ = {
+			isa = PBXGroup;
+			children = (
+				34A029461DB0EDA10048C593 /* AppDelegate.h */,
+				34A029471DB0EDA10048C593 /* AppDelegate.m */,
+				34A0295A1DB0EE350048C593 /* YKPieController.h */,
+				34A0295B1DB0EE350048C593 /* YKPieController.m */,
+				34A0295D1DB0EEDA0048C593 /* YKPieView.h */,
+				34A0295E1DB0EEDA0048C593 /* YKPieView.m */,
+				34A0294C1DB0EDA10048C593 /* Main.storyboard */,
+				34A0294F1DB0EDA10048C593 /* Assets.xcassets */,
+				34A029511DB0EDA10048C593 /* LaunchScreen.storyboard */,
+				34A029541DB0EDA10048C593 /* Info.plist */,
+				34A029431DB0EDA10048C593 /* Supporting Files */,
+			);
+			path = YKPieView;
+			sourceTree = "<group>";
+		};
+		34A029431DB0EDA10048C593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34A029441DB0EDA10048C593 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A0293F1DB0EDA10048C593 /* YKPieView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A029571DB0EDA10048C593 /* Build configuration list for PBXNativeTarget "YKPieView" */;
+			buildPhases = (
+				34A0293C1DB0EDA10048C593 /* Sources */,
+				34A0293D1DB0EDA10048C593 /* Frameworks */,
+				34A0293E1DB0EDA10048C593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKPieView;
+			productName = YKPieView;
+			productReference = 34A029401DB0EDA10048C593 /* YKPieView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A029381DB0EDA10048C593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kai_Yi;
+				TargetAttributes = {
+					34A0293F1DB0EDA10048C593 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 34A0293B1DB0EDA10048C593 /* Build configuration list for PBXProject "YKPieView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A029371DB0EDA10048C593;
+			productRefGroup = 34A029411DB0EDA10048C593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A0293F1DB0EDA10048C593 /* YKPieView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A0293E1DB0EDA10048C593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A029531DB0EDA10048C593 /* LaunchScreen.storyboard in Resources */,
+				34A029501DB0EDA10048C593 /* Assets.xcassets in Resources */,
+				34A0294E1DB0EDA10048C593 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A0293C1DB0EDA10048C593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A029481DB0EDA10048C593 /* AppDelegate.m in Sources */,
+				34A029451DB0EDA10048C593 /* main.m in Sources */,
+				34A0295C1DB0EE350048C593 /* YKPieController.m in Sources */,
+				34A0295F1DB0EEDA0048C593 /* YKPieView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34A0294C1DB0EDA10048C593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A0294D1DB0EDA10048C593 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34A029511DB0EDA10048C593 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A029521DB0EDA10048C593 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34A029551DB0EDA10048C593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34A029561DB0EDA10048C593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A029581DB0EDA10048C593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = YKPieView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FangMaster.YKPieView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34A029591DB0EDA10048C593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = YKPieView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FangMaster.YKPieView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A0293B1DB0EDA10048C593 /* Build configuration list for PBXProject "YKPieView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A029551DB0EDA10048C593 /* Debug */,
+				34A029561DB0EDA10048C593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A029571DB0EDA10048C593 /* Build configuration list for PBXNativeTarget "YKPieView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A029581DB0EDA10048C593 /* Debug */,
+				34A029591DB0EDA10048C593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A029381DB0EDA10048C593 /* Project object */;
+}
